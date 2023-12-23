@@ -1,0 +1,37 @@
+N : {S, Sub, P, O, K, KB, KG, KTun, KK, KD, KW, KWS, H, KT}
+T : {anjing, kucing, pohon , bola, susu, emas, cincin, aku, kamu, dia, ayah, ibu, adik, kakak, paman, bibi, kakek, nenek, itu, ini, berenang, menangis, bermain, memanjat, meminum, menjaga, di, dari, ke, pada, siang, pagi, sore, hari, warung, kolam, lapangan, kantor, kampus}
+S : Simbol Permulaan 
+P : {
+	<S> -> <Sub> <P> | <Sub <P> <O> | <Sub> <P> <K> | <Sub> <P> <O> <K>
+	<Sub> -> <KB> | <KG> | <KB> <KG> | <KB> <KTun>
+	<P> -> <KK>
+	<O> -> <KB> | <KG> | <KB> <KG>
+	<K> -> <KD> <KW> | <KD> <KT>
+
+	<KB> -> {anjing, kucing, pohon , bola, susu, emas, cincin}
+	<KG> -> {aku, kamu, dia, ayah, ibu, adik, kakak, paman, bibi, kakek, nenek}
+	<KTun> -> {itu, ini}
+	<KK> -> {berenang, menangis, bermain, memanjat, meminum, menjaga}
+	<KD> -> {di, dari, ke, pada}
+	<KW> -> <KWS> <H>
+	<KWS> -> {siang, pagi, sore}
+	<H> -> {hari}
+	<KT> -> {warung, kolam, lapangan, kantor, kampus}
+}
+
+
+
+S = awal kalimat
+Sub = subjek
+P = predikat
+O = objek
+K = keterangan
+KB = kata benda
+KG = kata ganti
+KTun = kata tunjuk
+KK = kata kerja
+KD = kata depan
+KW = keterangan waktu
+KWS = keterangan waktu spesifik
+H = kata 'hari'
+KT = keterangan tempat

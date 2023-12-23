@@ -1,0 +1,10 @@
+https://puspitakaban.medium.com/pos-tagging-bahasa-indonesia-dengan-flair-nlp-c12e45542860
+https://github.com/flairNLP/flair
+https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_2_TAGGING.md
+https://github.com/flairNLP/flair/blob/master/flair/data_fetcher.py
+https://raw.githubusercontent.com/UniversalDependencies/UD_Indonesian-GSD/master/id_gsd-ud-dev.conllu
+https://raw.githubusercontent.com/UniversalDependencies/UD_Indonesian-GSD/master/id_gsd-ud-test.conllu
+https://raw.githubusercontent.com/UniversalDependencies/UD_Indonesian-GSD/master/id_gsd-ud-train.conllu
+https://universaldependencies.org/u/pos/
+https://www.septinalarasati.com/morphind/
+https://www.informatik.hu-berlin.de/en/forschung-en/gebiete/ml-en/

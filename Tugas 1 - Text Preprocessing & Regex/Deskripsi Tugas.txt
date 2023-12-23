@@ -1,0 +1,6 @@
+Cari sebuah artikel berita tentang covid-19, lalu coba terapkan pre-processing  (stemming, stopword removal (dan, ini, itu, dll) perlu dilakukan), normalisasi tidak perlu karena kata - kata sudah baku.
+Output akhir berupa grafik kemunculan kata - kata yang paling sering muncul dalam berita, tidak perlu ditampilkan semua, top-25 kata teratas saja.
+Plotting terlebih dahulu, lalu tambahkan stopword pada stopwordlist dari hasil analisa sendiri.
+Kodingan dikumpulkan dengan format ipynb
++ Regex dikerjakan juga dengan format txt
+dikumpulkan pekan depan (Selasa jam akhir kuliah)
